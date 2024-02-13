@@ -1,0 +1,40 @@
+.white-background{
+    -fx-background-color: #fff;
+}
+.transparent{
+    -fx-background-color: transparent;
+}
+
+.round-layout{
+    -fx-border-radius: 50;
+    -fx-border-color: #d59a06;
+}
+.round-layout2{
+    -fx-border-radius: 10;
+    -fx-border-color: #d59a06;
+}
+
+.selected{
+    -fx-background-color: #F3F3F3;
+}
+
+.mouse-moved:hover{
+    -fx-background-radius: 50;
+    -fx-background-color: #E4E4E4;
+}
+.mouse-moved2:hover{
+    -fx-background-color: #E4E4E4;
+}
+.mouse-moved4:hover{
+    -fx-background-radius: 50;
+    -fx-background-color: #FFF;
+    -fx-border-color: #1bc1e6;
+}
+.mouse-moved3:hover{
+    -fx-background-color: #FFF;
+    -fx-border-color: #1bc1e6;
+}
+.shadow{
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.07), 10, 0, 0, 10);
+}
+
