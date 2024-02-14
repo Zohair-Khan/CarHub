@@ -5,11 +5,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDatabase {
-    private static final String JDBC_URL = "jdbc:mysql://carhubservice-carhub.a.aivencloud.com:23563/carhub";
-    private static final String USER = "carhubuser";
-    private static final String PASSWORD = "AVNS_LrzqoWReIY1UfSOroMi";
-
+public class UserDatabase implements DatabaseCredentials{
     static {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

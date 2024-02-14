@@ -11,11 +11,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListingDatabase {
-    private static final String JDBC_URL = "DATABASE URL";
-    private static final String USER = "DB LOGIN USERNAME";
-    private static final String PASSWORD = "DB LOGIN PASSWORD";
-
+public class ListingDatabase implements DatabaseCredentials{
     static {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
